@@ -39,6 +39,14 @@ conda config --set env_prompt '({name})'
 #### Just ask me (travc) if you need packages/modules installed. It is easy, but you don't have the permissions. ####
 
 
+## Slurm ##
+It works.  Using it properly can be tricky.  
+**Please ask me if you have a task which might benefit from farming it out to the whole cluster.**
+
+---
+
+# General Stuff, not specifically genomecenter computing related #
+
 ## Github ##
 Github (https://github.com) is a great way to keep and share programs, scripts, and even *small* data files.  
 
