@@ -47,4 +47,5 @@ This also makes it easy to publish supplememntal files and code, which most jour
 
 By default, github repositiories are public.
 I have a paid account which allows for private repositiories.
-(Perhaps we the lab itself may want to get a paid account.  A "team" account is $9/mo.)
+
+Perhaps we the lab itself may want to get a paid account.  A "team" account is $9/mo.
