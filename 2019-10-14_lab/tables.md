@@ -29,3 +29,6 @@
 > The nucleotide diversity of coding transcripts for each dataset is near 1%.  
 > Genome-wide nucleotide diversity is estimated at 2% for each of the gambiae and coluzzii datasets.  The estimate based on VGL-Aaeg is 1.3%, but this is likely a significant underestimate since aegypti contains many highly polymorphic regions which fail to sequence or map to the reference well.  
 > As a point of comparison, a relatively high estimate of human nucleotide diversity is 0.6% (https://www.nature.com/articles/nature15393).  
+
+
+![Good genes by dataset](percent_good_genes_overview.svg)
