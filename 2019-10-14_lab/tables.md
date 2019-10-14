@@ -35,7 +35,13 @@
 *Note: DRA = Drive Resistance Allele.  
 In this context the % DRA is the percent of variant allels we deem acceptable*
 
+### % Genes with good CRISPR targets by dataset ###
+
 <img src="percent_good_genes_overview.svg" width=75% alt="Good genes by dataset">
 
+Results are highly dependent on number of samples.  Lots of samples allows detection of more rare variants.  
+Ignoring variants with freq \< 1% makes sample size dependency go away.
+
+### Relationship between allowable DRA % number of targets ###
 <img src="Ag1000g-gambiae_good-vs-freq.png" width=75% alt="Good vs frequency">
 
