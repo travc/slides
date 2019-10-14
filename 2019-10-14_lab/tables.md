@@ -31,4 +31,11 @@
 > As a point of comparison, a relatively high estimate of human nucleotide diversity is 0.6% (https://www.nature.com/articles/nature15393).  
 
 
-![Good genes by dataset](percent_good_genes_overview.svg)
+## Results ##
+*Note: DRA = Drive Resistance Allele.  
+In this context the % DRA is the percent of variant allels we deem acceptable*
+
+<img src="percent_good_genes_overview.svg" width=75% alt="Good genes by dataset">
+
+<img src="Ag1000g-gambiae_good-vs-freq.png" width=75% alt="Good vs frequency">
+
