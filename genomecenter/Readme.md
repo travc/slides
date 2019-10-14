@@ -36,4 +36,15 @@ This command will change that to a short name (vgl for our shared conda env):
 conda config --set env_prompt '({name})'
 ```
 
+#### Just ask me (travc) if you need packages/modules installed. It is easy, but you don't have the permissions. ####
 
+
+## Github ##
+Github (https://github.com) is a great way to keep and share programs, scripts, and even *small* data files.  
+
+**I suggest a repository is made for every project/paper in progress.**  
+This also makes it easy to publish supplememntal files and code, which most journals want now.
+
+By default, github repositiories are public.
+I have a paid account which allows for private repositiories.
+(Perhaps we the lab itself may want to get a paid account.  A "team" account is $9/mo.)
