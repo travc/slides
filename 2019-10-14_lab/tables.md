@@ -5,9 +5,10 @@
 | --- | --- | --- |
 | **Genome size (Mbp)** | 230.5 | 1,195 |
 | **Coding part of the genome (Mbp)** | 25.7 (11.2%) | 59.1 (5%) |
+| **Protein-coding genes** | 12,562 | 13,601 |
+| --- | --- | --- |
 | **Raw targets** | 3,918,579 | 3,638,628 |
 | **Potential targets** | 1,196,509 (30.5%) | 828,454 (22.8%) |
-| **Protein-coding genes** | 12,562 | 13,601 |
 | **Protein-coding genes with potential targets** | 12,213 (97.2%) | 12,536 (92.2%) |
 
 
