@@ -12,6 +12,21 @@ This is our node to use as we see fit.
 Another login node is `barbera.genomecenter.ucdavis.edu`, but that is shared with other groups.
 Could be useful for testing if you can't get to our node.
 
+## Port forwarding (for Jupyter notebook and some other applications)
+
+Connecting a local port on your machine with a port on grassi will let you 
+run `jupyter notebook` on the genomecenter and view it in a local webbrowser.  
+
+Log in with a command like:
+```
+ssh -tL <port>:localhost:<port> <username@host>
+```
+Replace `<port>` with a port number between 1024 and 65535. This will be the port number you need to use for jupyter notebook (described below). 
+You can't use the same number as someone else.
+
+I highly recommed making an alias for this.
+
+Note: If you are using Mobaxterm, you can either start a local terminal and use the command, or you can change the setting for the connection/login to do the port forwarding. (I don't do it that way, so I can't tell you exactly how though.)
 
 ## Python ##
 I have setup a shared python environment (using conda/anaconda3) for us.  
@@ -35,8 +50,20 @@ This command will change that to a short name (vgl for our shared conda env):
 ```
 conda config --set env_prompt '({name})'
 ```
-
 #### Just ask me (travc) if you need packages/modules installed. It is easy, but you don't have the permissions. ####
+
+
+## Jupyter notebook
+
+Assuming you've logged in with port forwarding and have Python loaded with our shared conda environment (the previous two sections of this doc)...
+
+You can run juypter notebook with a command like:
+```
+jupyter notebook --no-browser --port <port> --port-retries=0
+```
+Replace `<port>` with the same port number you chose for ssh tunneling.
+
+
 
 
 ## Slurm ##
