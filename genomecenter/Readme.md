@@ -1,5 +1,27 @@
 # Notes for using genomecenter computing #
 
+## To update:
+
+#### Refershing kerberos sessions
+Your login credentials timeout after a certain period of time,
+this will make it so you don't have permissions for you own home directory.  Messes up a lot of stuff.  
+You can refresh the creditials by running:
+```
+kinit -fp -l 2d && aklog
+```
+That `2d` part is how long the new credential will last.  You can change it to something bigger if you need to.
+
+
+#### tmux
+`tmux` might have a weird behaviour where it cannot access your home directory.  A fix is to run `tmux` and from within it refresh your kerberos session:
+```
+tmux
+kinit -fp -l 2d && aklog
+```
+------------------------
+
+
+
 ## Their website: requests forms and some info
 https://computing.genomecenter.ucdavis.edu/home/
 
