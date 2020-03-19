@@ -26,8 +26,7 @@ kinit -fp -l 2d && aklog
 https://computing.genomecenter.ucdavis.edu/home/
 
 
-## Login node: `popi.genomecenter.ucdavis.edu`
-*Note: This will get renamed `grassi.genomecenter.ucdavis.edu`.*  
+## Login node: `grassi.genomecenter.ucdavis.edu`
 I suggest using making a local /etc/hosts entry on your machine and calling it `grassi`.  
 This is our node to use as we see fit.  
 
